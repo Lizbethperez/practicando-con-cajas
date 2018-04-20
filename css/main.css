@@ -1,0 +1,32 @@
+
+div{
+width: 5em;
+height: 5em;
+position: absolute;
+}
+#box_1 {
+  background-color: red;
+  top:0;
+  left: 0;
+}
+#box_2 {
+  background-color: green;
+  top: 0;
+  right: 0;
+}
+#box_2 div {
+  width:2em;
+  height:2em;
+  background-color:pink;
+}
+
+#box_3 {
+  background-color: blue;
+  bottom: 0;
+  right: 0;
+}
+#box_4 {
+  background-color: yellow;
+  bottom: 0;
+  left: 0;
+}
